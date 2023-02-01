@@ -1,21 +1,26 @@
-.full-width .contents .topic-list .topic-list-item .posters a.latest {
-  margin-right: 4px;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  .avatar {
-    margin-right: 0;
-  }
-}
-
-.navigation-container {
-  margin-top: 2em;
-}
-
-.quote-button {
-  background-color: var(--primary-low-mid);
-  border-radius: 0.5em;
-}
+@import "alert.scss";
+@import "background-fade-highlight.scss";
+@import "background.scss";
+@import "badge-wrapper.scss";
+@import "common.scss";
+@import "custom-search.scss";
+@import "d-header.scss";
+@import "discourse.scss";
+@import "display-search-banner.scss";
+@import "dropdown-select-box-header.scss";
+@import "icon.scss";
+@import "input.scss";
+@import "main-outlet.scss";
+@import "main.scss";
+@import "menu-panel.scss";
+@import "mobild-view.scss";
+@import "nav-pills.scss";
+@import "navigation-topics.scss";
+@import "popup-menu.scss";
+@import "published-page.scss";
+@import "search-input.scss";
+@import "shadow-mixin.scss";
+@import "site-text-logo.scss";
+@import "timeline-container.scss";
+@import "topic-list.scss";
+@import "unread-high-priority-notifications.scss";
