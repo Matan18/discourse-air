@@ -1,0 +1,12 @@
+.menu-panel.drop-down {
+  margin-top: 1em;
+  border-radius: 0.5em;
+  border: 1px solid var(--primary-low-mid);
+}
+
+.menu-panel .widget-link:hover,
+.menu-panel .widget-link:focus,
+.menu-panel .categories-link:hover,
+.menu-panel .categories-link:focus {
+  background-color: rgba(var(--tertiary-rgb), 0.5);
+}

@@ -1,0 +1,23 @@
+.discourse-tag {
+  font-size: $font-down-1;
+  border-radius: 0.25em;
+  padding: 0.15em 0.25em 0.15em 0.35em;
+  background-color: var(--primary-low);
+  color: var(--primary) !important;
+  &:hover {
+    background-color: var(--primary-low-mid);
+    color: var(--primary);
+  }
+}
+
+.discourse-tags .discourse-tag.simple:not(:last-child)::after,
+.list-tags .discourse-tag.simple:not(:last-child)::after,
+.search-category .discourse-tag.simple:not(:last-child)::after {
+  content: "";
+  margin-left: unset;
+}
+
+.topic-list .link-bottom-line .discourse-tag.simple:after,
+.topic-list .link-bottom-line .discourse-tag.box {
+  margin-right: 0px;
+}

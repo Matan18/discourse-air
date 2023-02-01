@@ -1,0 +1,8 @@
+@keyframes background-fade-highlight {
+  0% {
+    background-color: var(--highlight-low);
+  }
+  100% {
+    background-color: var(--secondary);
+  }
+}
