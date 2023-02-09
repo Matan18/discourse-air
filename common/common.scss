@@ -239,7 +239,8 @@ html body #main-outlet {
 .menu-panel .widget-link:focus,
 .menu-panel .categories-link:hover,
 .menu-panel .categories-link:focus {
-  background-color: color.adjust(var(--tertiary-rgb), $alpha: 0.8);
+  background: var(--tertiary-rgb);
+  background: rgba(var(--tertiary-rgb), 0.8);
 }
 
 .mobile-view {
