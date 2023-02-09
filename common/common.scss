@@ -205,6 +205,11 @@ div.ac-wrap {
   border-radius: 4px;
 }
 
+@mixin background-opacity($color, $opacity: 0.8) {
+  background: $color;
+  background: rgba($color, $opacity);
+}
+
 html body #main-outlet {
   @include background-opacity(var(--secondary));
   margin-top: 30px;
@@ -233,11 +238,6 @@ html body #main-outlet {
   margin-top: 1em;
   border-radius: 0.5em;
   border: 1px solid var(--primary-low-mid);
-}
-
-@mixin background-opacity($color, $opacity: 0.8) {
-  background: $color;
-  background: rgba($color, $opacity);
 }
 
 .menu-panel .widget-link:hover,
